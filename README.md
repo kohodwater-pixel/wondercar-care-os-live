@@ -1,20 +1,16 @@
-﻿# WONDER car Care Center OS
+# WONDER car Care Center OS
 
-نسخة عرض ثابتة جاهزة للنشر على GitHub Pages. ملف `index.html` مستقل ويحتوي شعار WONDER car مضمّنًا.
+Standalone GitHub Pages demonstration for the WONDER car integrated car care center.
 
-## النشر من واجهة GitHub
+## Demo features
+- Separate manager and cashier interface previews.
+- Cashier checkout requires customer name and phone, with optional marketing-consent status.
+- Manager-only customer database, visit/spend segments, and CSV exports.
+- Sales, expense, customer, and period report CSV exports.
+- Service direct-cost entry and estimated profitability reporting.
 
-1. أنشئ مستودعًا باسم `wondercar-care-os`.
-2. ارفع محتويات هذه الحزمة إلى **جذر المستودع**: `index.html` و`.nojekyll` و`README.md`.
-3. افتح **Settings → Pages**.
-4. في **Build and deployment** اختر **Deploy from a branch**.
-5. اختر الفرع `main` والمجلد `/(root)`، ثم اضغط **Save**.
-6. بعد انتهاء النشر، استخدم رابط الموقع الذي يظهر في صفحة Pages.
+## Open
+Open index.html in a browser or publish the repository root with GitHub Pages.
 
-تشرح وثائق GitHub اختيار الفرع والجذر كمصدر للنشر: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-## مهم قبل المشاركة
-
-هذه نسخة ديمو ببيانات تجريبية. الحفظ يتم في `localStorage` داخل المتصفح الحالي فقط؛ لا يوجد خادم أو مزامنة بين أجهزة الموظفين. لا تدخل بيانات عملاء حقيقية أو معلومات مالية فعلية. موقع GitHub Pages المنشور متاح للعامة على الإنترنت، حتى عندما تسمح خطة GitHub بالنشر من مستودع خاص. راجع إعدادات ظهور المستودع والموقع قبل النشر.
-
-لتحويل الديمو إلى منتج تجاري متعدد الفروع، نحتاج قاعدة بيانات وخادمًا آمنًا، حسابات وصلاحيات، نسخًا احتياطيًا، ثم ربطًا فعليًا للفوترة الإلكترونية والدفع.
+## Important
+This is a frontend demo. Data is stored in the browser and role separation is only a visual preview. Production use needs backend authentication and authorization, secure persistent storage, backups, and verified tax-e-invoice integration.
